@@ -49,7 +49,8 @@ class ModelFrameExportOp(Operator):
             if group == group_by:
                 model += 1
             group %= group_by
-            filepath = output_dir + "particle " + str(model) + " - model " + str(group+1) + " - (frame " + str(frame) + ")"
+            particle_count = str(model).zfill(2)
+            filepath = output_dir + "particle " + particle_count + " - model " + str(group+1) + " - (frame " + str(frame) + ")"
             print("Exporting GLTF for frame " + str(frame) + ", as " + str(filepath))
             bpy.context.scene.frame_set(frame)
             bpy.ops.export_scene.gltf(filepath=filepath,
