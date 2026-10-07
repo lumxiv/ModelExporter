@@ -65,7 +65,7 @@ class ModelFrameExportOp(Operator):
 class ModelFrameExportPanel(bpy.types.Panel):
     bl_idname = "MFE_PT_Export"
     bl_label = "Model Frame Export"
-    bl_category = "ModelFrameExport"
+    bl_category = "ModelExporter"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
 
