@@ -2,11 +2,11 @@
 Export models frame by frame to gltf for use in VFXEditor
 
 ## Requirements
-- [Blender 4.5](https://www.blender.org/)
+- [Blender 5.2](https://www.blender.org/)
 - [VFXEditor](https://github.com/0ceal0t/Dalamud-VFXEditor)
 
 ## Installation
-Download the addon from the [releases](https://github.com/lumxiv/GTLF-ModelFrameExporter/releases).  
+Download the addon from the [releases](https://github.com/lumxiv/ModelExporter/releases).  
 Go to `Edit > Preferences > Add-ons > Install From Disk...` and select the entire `.zip` file. Make sure to enable the add-on as well.
 
 > Note on updating: you may need to uninstall the add-on, restart Blender, and then re-install it

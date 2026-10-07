@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+id = "model_exporter"
+version = "1.1.0"
+name = "ModelExporter"
+tagline = "Export models frame by frame to glTF for use in VFXEditor"
+type = "add-on"
+website = "https://github.com/lumxiv/ModelExporter"
+maintainer = "lumxiv <https://github.com/lumxiv>"
+tags = ["Animation", "Import-Export"]
+blender_version_min = "5.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/dist/",
+  "/.git/",
+  "/launch.json",
+  "/build.cmd",
+  "*.zip",
+]
